@@ -1,41 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clash royale</title>
-    <link rel="stylesheet" href="pagina1.css">
+    <title>Clash Royale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Pagina 1 Clash royale </h1>
-    <nav>
-        <li><a href="index.html">index</a></li>
-        <li><a href="pagina2.html">Pagina 2</a></li>
-        <li><a href="pagina3.html">Pagina 3</a></li>
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Clash Royale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Página 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <img src="img-lab6/clash-portada.jpg">
-    <h2>Clash royale</h2>
+    <h1 class="mt-4">Página 1 Clash Royale</h1>
+    <div class="text-center">
+        <img src="img-lab6/clash-portada.jpg" class="img-fluid rounded">
+    </div>
+    <h2 class="mt-4">Clash Royale</h2>
     <p>Clash Royale es un juego de estrategia en tiempo real desarrollado por Supercell. Combina elementos de juegos de
-        cartas coleccionables, defensa de torres y batallas multijugador en línea</p>
+        cartas coleccionables, defensa de torres y batallas multijugador en línea.</p>
+    <div class="text-center">
+        <img src="img-lab6/arena-clash.jpg" class="img-fluid rounded">
     </div>
-    <img src="img-lab6/arena-clash.jpg" class="imagen-derecha">
-    </div>
-    <h3>Modos de juego mas populares</h3>
-    <ul>
-        <li>Duelo 1v1</li>
-        <li>Guerra de clanes</li>
-        <li>Torneos Reales</li>
+    <h3 class="mt-4">Modos de juego más populares</h3>
+    <ul class="list-group">
+        <li class="list-group-item">Duelo 1v1</li>
+        <li class="list-group-item">Guerra de clanes</li>
+        <li class="list-group-item">Torneos Reales</li>
     </ul>
-    <h4>Calidades de Cartas</h4>
-    <p>Existen 5 calidades de cartas en clas royales que varian de nivel y uso de juego</p>
-    <ol>
-        <li>Común: Son las más básicas y fáciles de obtener</li>
-        <li>Especial: Un poco más raras, ofrecen habilidades únicas.</li>
-        <li>Épica: Más poderosas y menos comunes</li>
-        <li>Legendaria: Extremadamente raras y con habilidades excepcionales.</li>
-        <li>Campeón: Exclusivos para jugadores de nivel alto y muy difíciles de encontrar.</li>
+    <h4 class="mt-4">Calidades de Cartas</h4>
+    <p>Existen 5 calidades de cartas en Clash Royale que varían de nivel y uso de juego.</p>
+    
+    <ol class="list-group">
+        <li class="list-group-item">Común: Son las más básicas y fáciles de obtener.</li>
+        <li class="list-group-item">Especial: Un poco más raras, ofrecen habilidades únicas.</li>
+        <li class="list-group-item">Épica: Más poderosas y menos comunes.</li>
+        <li class="list-group-item">Legendaria: Extremadamente raras y con habilidades excepcionales.</li>
+        <li class="list-group-item">Campeón: Exclusivos para jugadores de nivel alto y muy difíciles de encontrar.</li>
     </ol>
-    <img src="img-lab6/calidad-clash.jpg">
+    <div class="text-center mt-4">
+        <img src="img-lab6/calidad-clash.jpg" class="img-fluid rounded">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -3,30 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="pagina2.css">
+    <title>Un Show Más</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>pagina 2 Un show mas</h1>
-    <nav>
-        <li><a href="index.html" >index</a></li>
-        <li><a href="pagina1.html">Pagina 1</a></li>
-        <li><a href="pagina3.html">Pagina 3</a></li>
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Un Show Más</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Página 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <img src="img-lab6/unshowportada.jpg">
-    <h2>Un Show Mas</h2>
-    <p>Un Show Más es una serie animada creada por J.G. Quintel para Cartoon Network donde dos amigos que trabajan como jardineros en un parque, aunque sus tareas son mundanas, siempre terminan envueltos en situaciones absurdas, llenas de humor, acción y elementos sobrenaturales</p>     
-    <img src="img-lab6/personajes-unshow.jpg">
-    <h3>Personajes de Un Show Mas</h3>
-    <p>Aunque en la serie existan muchos personajes como principales, antagonistas, extras, gente que aparece hay nadamas dos principales</p>
-    <ul>
-        <li>Mordecai</li>
-        <li>Rigby</li>
-    </ul>
-    <p>Pero sin dejar de lado a personajes como lo son Papaleta, Benson, Musculoso, Fantasmano, Skips, que son los que trabajan en el parque </p>
-    <img src="img-lab6/cartoonnetwork.jpg">
-    <h4>Cartoon Network</h4>
-    <p>Un Show mas es una serie origianl creada por Cartoon Network, que salio el 6 de septiembre de 2010 en las redes de cartoon Network, pero dando su final de la serie un 16 de enero del 2017 despues de sus 8 exitosas temporadas</p>
-  
+
+    <h1 class="mt-4 text-center">Página 2: Un Show Más</h1>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="img-lab6/unshowportada.jpg" class="card-img-top" alt="Un Show Más Portada">
+                <div class="card-body">
+                    <h2 class="card-title">Un Show Más</h2>
+                    <p class="card-text">Un Show Más es una serie animada creada por J.G. Quintel para Cartoon Network donde dos amigos trabajan como jardineros en un parque, pero siempre terminan envueltos en situaciones absurdas, llenas de humor y elementos sobrenaturales.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <img src="img-lab6/personajes-unshow.jpg" class="card-img-top" alt="Personajes Un Show Más">
+                <div class="card-body">
+                    <h3 class="card-title">Personajes de Un Show Más</h3>
+                    <p class="card-text">Aunque hay muchos personajes, los dos protagonistas principales son:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Mordecai</li>
+                        <li class="list-group-item">Rigby</li>
+                    </ul>
+                    <p class="mt-3">También hay personajes secundarios como Papaleta, Benson, Musculoso, Fantasmano y Skips, quienes trabajan en el parque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <img src="img-lab6/cartoonnetwork.jpg" class="img-fluid rounded">
+    </div>
+
+    <h4 class="mt-4 text-center">Cartoon Network</h4>
+    <p class="text-center">Un Show Más es una serie original de Cartoon Network que se estrenó el 6 de septiembre de 2010 y finalizó el 16 de enero de 2017 tras 8 exitosas temporadas.</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
